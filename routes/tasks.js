@@ -6,9 +6,7 @@ const  {getAllTasks,createTasks,getTask,updateTask,deleteTask} = require("../con
 
 
 //Returns an instance of a single route which you can then use to handle HTTP verbs with optional middleware. 
-router.route("/")
-.get(getAllTasks)
-.post(createTasks)
+router.route("/").get(getAllTasks).post(createTasks)
 
 router.route("/:id").get(getTask)
 .patch(updateTask)
