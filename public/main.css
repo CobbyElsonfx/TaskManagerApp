@@ -49,7 +49,7 @@
   --bodyFont: 'Montserrat', sans-serif;
   --smallText: 0.7em;
   /* rest */
-  --backgroundColor: var(--grey-50);
+  --backgroundColor: #5C9CF7;
   --textColor: var(--grey-1000);
   --borderRadius: 0.25rem;
   --letterSpacing: 1px;
